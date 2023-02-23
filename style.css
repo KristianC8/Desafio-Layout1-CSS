@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header-padre{
+    width: 100vw;
+    height: 8vh;
+    min-height: 3.125rem;
+    position: relative;
+    background-color: black;
+}
+
+.logo{
+    height: 2.5rem;
+    min-width: 6.125rem;
+    position: absolute;
+    left: 0.625rem;
+    top: 0.3125rem;
+    background-color:black;
+}
+
+.barra-padre{
+    height:  2.5rem;
+    width: 20rem;
+    min-width:20rem;
+    position: absolute;
+    right:0.625rem;
+    top: 0.3125rem;
+    background-color: black;
+}
+
+.nav-br ul{
+    text-align: right;
+    height: 2.5rem;
+    list-style: none;
+    position: relative;
+}
+
+.nav-br li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.nav-br a{
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    font-size: 15px; 
+}
+
+.nav-br a:hover{
+    color: #939a9d;
+    transition: 1s;
+}
+
+.reg{
+    height: 2.5rem;
+    width: 5.625rem;
+    position: absolute;
+    top: 0px;
+    right: 8.125rem; 
+}
+
+.log{
+    height: 2.5rem;
+    width: 5rem; 
+    position: absolute;
+    top: 0px;
+    right: 2.8125rem;   
+}
+
+.halo-helmet{ 
+    height: 2.5rem;
+    width: 2.5rem;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+.main-padre{
+    width: 100vw;
+    height: 86vh;
+    min-height: 33.59372rem;
+    background-color: #0a0a09;
+    position: relative;
+}
+
+.personajes{
+    width: 22%;
+    height: 100%;
+    min-width: 15.625rem;
+    min-height: 25.3125rem;
+    background-color: #42494c;
+    padding: 7px;
+    display: inline-block;
+}
+
+.personajes div{
+    width: 85%;
+    height: 7.8515625rem;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    position: relative;
+}
+
+.personajes div:hover{
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08)
+}
+
+.personajes div img{      
+        object-fit: cover;
+        width:100%;
+        height:100%;   
+        border-radius: 5px;
+}
+
+.personajes div span{
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        font-family: monospace;
+        font-weight: bold;
+        color: white;
+}
+
+.main-info{
+    height: 100%;
+    width: 78vw;
+    background-color: white;
+    position: absolute;
+    display: inline-block;
+    background-image: url("https://i.postimg.cc/NGmD5tGL/fondo.jpg");
+    background-size: cover;
+}
+
+.info-image{
+    height: 80%;
+    width: 95%;
+    min-width: 51.625rem;
+    background-color: white;
+    margin: 0.5rem auto;
+    border: solid 2px;
+    border-radius: 20px;
+    opacity: 0.5;
+}
+
+.info-image img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+}
+
+.info-text{ 
+    height: 16%;
+    width: 95%;
+    min-width: 51.625rem;
+    background-color: black;
+    margin: 0.5rem auto;
+    border: solid 2px;
+    border-color: white;
+    border-radius: 10px;
+    opacity: 0.15;
+}
+
+.info-text p{
+    margin-top: 20px;
+    font-family: monospace;
+    color:white;
+    text-align: center;
+    font-size: 17px;
+    opacity: 1;
+}
+
+.footer-padre{
+    width: 100vw;
+    height: 6vh;
+    background-color: black;
+
+}
+
+.footer-padre section{
+    display: inline-block;
+    height: 35px;
+}
+
+.info{
+    background-color: black;
+    width: 49.5%;  
+}
+
+.info p{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.social-net{
+    background-color: black;
+    width: 49.5%;  
+    position: absolute;
+    text-align: right;
+}
+
+.social-net div{
+    height: 30px;
+    width: 30px;
+    background-color: black;  
+    display:inline-block;
+}
+
+.social-net img{
+    object-fit: cover;
+    width:100%;
+    height:100%; 
+}
+
